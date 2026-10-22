@@ -9,6 +9,23 @@ transmit programs are included.
 > do not connect the HackRF's antenna port to a transmitter or powered RF
 > source. Start with low gain, and use an appropriate antenna for the band.
 
+## Contents
+
+- [What you need](#what-you-need)
+- [Install desktop SDR software](#install-desktop-sdr-software-ubuntudebian)
+  - [GNU Radio Companion](#gnu-radio-companion-build-your-own-receiver)
+  - [SDR++](#sdr-easiest-modern-waterfall-receiver)
+  - [CubicSDR](#cubicsdr-simple-cross-platform-receiver)
+  - [Gqrx](#gqrx-familiar-receiver-interface-optional)
+  - [Other Linux distributions](#other-linux-distributions)
+- [The three demos](#the-three-demos)
+  - [Inspect the receiver](#1-inspect-the-receiver)
+  - [Capture and see radio spectrum](#2-capture-and-see-radio-spectrum)
+  - [Demodulate broadcast FM to a WAV file](#3-demodulate-broadcast-fm-to-a-wav-file)
+- [Tool map](#tool-map)
+- [Practical operating notes](#practical-operating-notes)
+- [Useful next steps](#useful-next-steps)
+
 ## What you need
 
 * A HackRF One, USB cable, and a suitable antenna.
