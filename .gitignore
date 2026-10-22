@@ -1,0 +1,6 @@
+# Large raw SDR recordings and generated audio/plots
+captures/
+*.cs8
+*.wav
+*-spectrum.png
+__pycache__/
